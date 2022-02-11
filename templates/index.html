@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% load bootstrap5 %}
+{% block content %}
+<h3 class="text-center">Signalement</h3>
+    <p>L'objectif de cet espace de permettre aux collaborateurs du cabinet Lieutenant Guillaume de signaler anonymement un comportement inadéquat</p>
+    <p class="text-center"><a href="{% url 'get_form' %}" class="btn btn-primary btn-lg  btn-block" role="button">Signaler</a></p>
+{% endblock %}

@@ -1,0 +1,4 @@
+Django
+django-bootstrap-v5
+django-simple-captcha
+django-ckeditor
