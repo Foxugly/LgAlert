@@ -2,5 +2,4 @@ Django~=4.0.1
 django-bootstrap-v5
 django-simple-captcha~=0.5.14
 django-ckeditor~=6.2.0
-beautifulsoup4~=4.10.0
 pip~=21.1.2
