@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 {% load static bootstrap5 %}
+
+{% block head %}
+{{ form.media }}
+{% endblock head %}
+
 {% block content %}
     <h3 class="text-center">Formulaire de signalement</h3>
 <form action="{% url 'get_form' %}" method="post" class="form">

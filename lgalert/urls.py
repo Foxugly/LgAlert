@@ -24,7 +24,6 @@ urlpatterns = [
     path('', views.home),
     path('form/', views.get_form, name='get_form'),
     path('confirm/', views.get_confirm, name='get_confirm'),
-    path('tinymce/', include('tinymce.urls')),
     path('captcha/', include('captcha.urls')),
     path('admin/', admin.site.urls),
 ]

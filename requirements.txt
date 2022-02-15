@@ -3,11 +3,4 @@ django-bootstrap-v5
 django-simple-captcha~=0.5.14
 django-ckeditor~=6.2.0
 beautifulsoup4~=4.10.0
-soupsieve~=2.3.1
-Pillow~=9.0.0
 pip~=21.1.2
-wheel~=0.36.2
-sqlparse~=0.4.2
-asgiref~=3.5.0
-six~=1.16.0
-setuptools~=57.0.0
